@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block title %} Search {% endblock %}
 {% block body %}
-    <h1>Book Search</h1>  
-    <form action="/search" method="POST">
+    <h1>Search by Time</h1>  
+    <h3>Find books that take a certain time to read</h3>  
+    <form action="/searchtime" method="POST">
         <div class="small-10 columns">
-            <input type="text" placeholder="Search for a book" id="user_search" name="user_search" required/>
+            <input type="text" placeholder="Please enter a number such as 3.5" id="user_search" name="user_search" required/>
         </div>
         <div class="small-2 columns">
             <button class="postfix search-button" type="submit">Search</button>
