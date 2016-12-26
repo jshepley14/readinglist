@@ -5,15 +5,21 @@ body, html {
     width: 100%;
 }
 
-body {
-    background: black url(https://images.unsplash.com/reserve/fvD9myEgRued3zLne2GS__DSC0033-1.jpg?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450) no-repeat fixed center center;
+
+body { 
+  background: url(http://acttwomagazine.com/wp-content/uploads/2014/10/librarypic2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 .panel {
     margin-top: 80px;
     text-align: center;
     background-color: rgba(242, 242, 242, 0.9);
-    padding: 15px 0px 70px 0px;
+    padding: 15px 0px 10px 0px;
 }
 
 .panel h1 {
@@ -45,4 +51,19 @@ button:hover {
     padding: 5px 20px;
 }
 
+.back-to-search{
+    background-color: #8B4513;
+    margin-top: 100px;
+    text-align: right;
+    font-size: 1.0rem;
+    padding: 5px 5px;
+}
+
+.back-to-searchtime{
+    background-color: #8B4513;
+    margin-top: 100px;
+    text-align: right;
+    font-size: 1.0rem;
+    padding: 5px 5px;
+}
 

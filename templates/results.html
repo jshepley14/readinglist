@@ -12,7 +12,7 @@ li {
 }
 </style>
 <div class="results">
-	{% if api_data["totalItems"] > 0 %}
+	{% if api_data["totalItems"] %}
 		<ul>
 		    {% for book in api_data["items"] %}
 		        <li>

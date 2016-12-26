@@ -28,7 +28,7 @@ def searchtime():
     if request.method == "POST":
         url = "https://www.googleapis.com/books/v1/volumes?q=" + request.form["user_search"]
         response_dict = requests.get(url).json()
-        return render_template("results.html", api_data=response_dict)
+        return render_template("timeresults.html", api_data=response_dict, hours=float(request.form["user_searchtime"] ) )
     else: # request.method == "GET"
         return render_template("searchtime.html")
 
